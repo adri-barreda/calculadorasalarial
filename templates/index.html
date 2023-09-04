@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Laboral: Descubre Tu Valor en el Mercado Laboral</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="main-header">
+        <h1>Calculadora Laboral</h1>
+        <p class="sub-title">Tu Mejor Herramienta para Evaluar Tu Salario</p>
+      </div>
+      <div class="interactive-box">
+        <div class="upload" id="upload-section">
+          <h2>Empieza Ahora: Sube Tu Currículum</h2>
+          <form id="upload-form">
+            <div class="input-group">
+              <input type="file" id="fileInput" accept=".pdf,.txt" />
+              <button type="submit" id="submit-button">Empieza Ahora</button>
+            </div>
+          </form>
+        </div>
+        <div class="results" id="results">
+          <h2>Tu Estimación Salarial</h2>
+          <div id="gpt-4-result"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="faqs">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="faq">
+            <button class="faq-toggle">¿Cómo funciona la Calculadora Laboral?</button>
+            <div class="faq-content">
+              <p>Nuestra herramienta utiliza un algoritmo avanzado para analizar tu currículum y estimar tu valor en el mercado laboral. Se toman en cuenta factores como educación, experiencia laboral, habilidades específicas, ubicación y la industria en la que trabajas.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Qué formatos de archivo aceptan?</button>
+            <div class="faq-content">
+              <p>Aceptamos archivos en formato PDF y TXT.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Cómo se calcula el rango salarial?</button>
+            <div class="faq-content">
+              <p>El cálculo se basa en varios factores que se extraen de tu currículum, como tu educación, experiencia y habilidades. Estos se ponderan y multiplican por factores relacionados con tu ubicación e industria para estimar un rango salarial en el contexto del mercado laboral español.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Qué hago si el rango salarial no parece preciso?</button>
+            <div class="faq-content">
+              <p>Si crees que el rango salarial no es preciso, te recomendamos revisar tu currículum para asegurarte de que toda la información relevante esté incluida y actualizada. Nuestra herramienta es tan precisa como los datos que le proporcionas.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Cómo interpreta la app la educación y las certificaciones?</button>
+            <div class="faq-content">
+              <p>La app analiza la sección de educación en tu CV y la puntuación varía de 0 a 10, con puntos adicionales para certificaciones relevantes.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Cómo se evalúa la experiencia laboral?</button>
+            <div class="faq-content">
+              <p>Se otorgan puntos en una escala de 1 a 10 basada en la duración de tu experiencia laboral, tal como se refleja en tu CV.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Cómo maneja la app las habilidades específicas?</button>
+            <div class="faq-content">
+              <p>Se asignan puntos en una escala de 2 a 10 en función del nivel de habilidades que se puedan inferir de tu CV.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿La ubicación y la industria afectan la estimación salarial?</button>
+            <div class="faq-content">
+              <p>Sí, son factores multiplicadores que se aplican al final del cálculo.</p>
+            </div>
+          </div>
+          
+          <div class="faq">
+            <button class="faq-toggle">¿Por qué se usa GPT-4 en esta aplicación?</button>
+            <div class="faq-content">
+              <p>Utilizamos el modelo de lenguaje GPT-4 para analizar de forma precisa y detallada tu CV, lo que nos permite hacer una estimación salarial más acertada.</p>
+            </div>
+          </div>                  
+        </section>
+    
+        <footer class="main-footer">
+          <h3>Tu Calculadora Salarial Inteligente</h3>
+          <p>By PsicoTools, 2023. Todos los derechos reservados.</p>
+        </footer>
+      </div>
+      
+      <script src="/static/script.js"></script>
+    </body>
+    </html>
